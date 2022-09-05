@@ -1178,13 +1178,13 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .linkedIn {
   margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .linkedIn:hover i {
   background: #34b7a7;
   color: #fff;
 }
@@ -1269,6 +1269,13 @@ section {
   background: #3dc8b7;
 }
 
+.article #weather, div{
+  color: #444444;
+  margin: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1288,6 +1295,8 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Footer
