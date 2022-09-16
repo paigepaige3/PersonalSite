@@ -16,9 +16,9 @@ $(function () {
             var weatherResults = document.getElementById('weatherResults');
 
             weatherResults.innerHTML += `
-            <h3>${data.main.temp}&#8451;</h3>
-            <p>Feels Like: ${data.main.feels_like} &#8451;</p>
-            <p>Wind Speed: ${data.wind.speed} mph</p>`;
+            <h3>${data.main.temp} &#8457;</h3>
+            <p>Feels Like: ${data.main.feels_like} &#8457;</p>
+            `;
         }
     });
 });
